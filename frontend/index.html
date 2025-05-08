@@ -39,10 +39,12 @@
       box-shadow: 0 0 8px rgba(255,255,255,0.08);
     }
     .banner .logo-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  padding: 8px;
+}
     .banner h1 {
       margin: 0.5rem 0;
       font-size: 2rem;
@@ -86,7 +88,7 @@
     .logo-container img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
     }
     .card h2 {
       font-size: 1.25rem;
@@ -121,6 +123,90 @@
   </style>
 </head>
 <body>
-  <!-- Conteúdo principal da landing page -->
+  <header class="banner">
+    <div class="logo-container">
+      <img src="https://raw.githubusercontent.com/OLVCORE/OLV-Core-Plataform/main/frontend/logos/olv_core.jpeg" style="width: 100%; height: auto; max-width: 100%; object-fit: contain; padding: 8px;">
+    </div>
+    <h1>OLV CORE</h1>
+    <p><strong><em>Tecnologia com inteligência. Gestão com propósito.</em></strong><br>
+    Plataforma centralizadora do Ecossistema OLV, com cockpit de controle, status dos projetos, relatórios executivos e integração em tempo real entre as soluções satélites.</p>
+  </header>
+  <section class="grid">
+    <div class="card">
+      <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/OLVCORE/OLV-Core-Plataform/main/frontend/logos/stratevo.jpeg" style=\"width: 100%; height: auto; max-width: 100%; object-fit: contain; padding: 8px;\" alt="Logo STRATEVO">
+      </div>
+      <h2>STRATEVO</h2>
+      <p><strong><em>Inteligência para decidir. Estratégia para crescer.</em></strong></p>
+      <p>Plataforma de inteligência comercial consultiva B2B, com diagnóstico estratégico, matriz SWOT e proposta de valor automatizada.</p>
+      <a href="http://stratevo.com.br">Acessar plataforma</a>
+    </div>
+    <div class="card">
+      <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/OLVCORE/OLV-Core-Plataform/main/frontend/logos/exceltta.jpeg" style="width: 100%; height: auto; max-width: 100%;>
+      </div>
+      <h2>EXCELTTA</h2>
+      <p><strong><em>Apoio estratégico para crescer com segurança.</em></strong></p>
+      <p>Análise de licitações e RFQs com leitura via OCR, extração técnica e relatórios automatizados para tomada de decisão.</p>
+      <a href="http://exceltta.com.br">Acessar plataforma</a>
+    </div>
+    <div class="card">
+      <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/OLVCORE/OLV-Core-Plataform/main/frontend/logos/olv_connecta.jpeg" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%;" alt="Logo CONNECTA">
+      </div>
+      <h2>OLV CONNECTA</h2>
+      <p><strong><em>Tecnologia com inteligência. Gestão com propósito.</em></strong></p>
+      <p>Conexão entre PMEs e fornecedores homologados, com cruzamento de NCMs, imagens e validação de reputação via IA.</p>
+      <a href="http://olvconnecta.com.br">Acessar plataforma</a>
+    </div>
+    <div class="card">
+      <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/OLVCORE/OLV-Core-Plataform/main/frontend/logos/olv_veritus.jpeg" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%;" alt="Logo VERITUS">
+      </div>
+      <h2>OLV VERITUS</h2>
+      <p><strong><em>Porque decidir bem exige enxergar com clareza.</em></strong></p>
+      <p>Gestão financeira e precificação estratégica para PMEs, com simulação de margens, impostos, câmbio e relatórios.</p>
+      <a href="http://olveritus.com.br">Acessar plataforma</a>
+    </div>
+    <div class="card">
+      <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/OLVCORE/OLV-Core-Plataform/main/frontend/logos/olv_internacional.jpeg" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%;" alt="Logo OLV Internacional">
+      </div>
+      <h2>OLV INTERNACIONAL</h2>
+      <p><strong><em>Integramos estratégia, operação e resultado.</em></strong></p>
+      <p>Empresa-mãe do ecossistema, referência em Supply Chain, comércio exterior e internacionalização de PMEs.</p>
+      <a href="http://olvinternacional.com.br">Visitar site institucional</a>
+    </div>
+  </section>
+
+<section style="padding: 2rem; max-width: 960px; margin: 0 auto; color: var(--cinza-claro); line-height: 1.6;">
+  <h2 style="color: var(--dourado); font-size: 1.8rem; margin-bottom: 1rem;">🌐 OLV CORE – Junte-se ao Ecossistema que Impulsiona PMEs no Brasil e no Mundo</h2>
+  <p><strong>🔹 Tecnologia com inteligência. Gestão com propósito.</strong></p>
+  <p>O OLV CORE é o primeiro ecossistema integrado e estratégico do Brasil, pensado exclusivamente para PMEs que querem:</p>
+  <ul style="margin-left: 1rem;">
+    <li>✅ Crescer com apoio especializado</li>
+    <li>✅ Reduzir riscos e custos logísticos</li>
+    <li>✅ Vencer licitações com preparo técnico</li>
+    <li>✅ Conectar-se a fornecedores globais homologados</li>
+    <li>✅ Ampliar suas exportações e importar com segurança</li>
+    <li>✅ Ter controle financeiro e inteligência fiscal em tempo real</li>
+  </ul>
+  <h3 style="margin-top: 2rem; color: var(--dourado);">🎯 O que você encontra ao se associar?</h3>
+  <ul style="margin-left: 1rem;">
+    <li><strong>STRATEVO</strong>: Diagnóstico empresarial, matriz SWOT, inteligência de mercado e proposta de valor personalizada.</li>
+    <li><strong>EXCELTTA</strong>: Leitura automatizada de editais com OCR, comparação técnica e relatórios de licitação.</li>
+    <li><strong>OLV CONNECTA</strong>: Catálogo de fornecedores nacionais e internacionais com validação e reputação.</li>
+    <li><strong>OLV VERITUS</strong>: Gestão financeira inteligente, simulações de impostos e margens, relatórios gerenciais.</li>
+    <li><strong>REVITA OLV</strong>: Marca com 30 anos de autoridade em supply chain e integração global de negócios.</li>
+  </ul>
+  <h3 style="margin-top: 2rem; color: var(--dourado);">📣 Campanha de Aderência: “Seja Grande Sem Ser Gigante”</h3>
+  <p>🌍 O OLV CORE transforma pequenas empresas em protagonistas globais.<br>
+     🚀 Inovação, inteligência e estrutura real para competir com os grandes.</p>
+  <p><strong>📞 Entre agora em contato e receba um diagnóstico gratuito da sua empresa.</strong></p>
+  <p>Você será surpreendido com o que o ecossistema pode fazer por você.</p>
+  <hr style="margin: 2rem 0; border: 1px solid #444;">
+  <p style="text-align: center;"><strong>💼 Associe-se ao OLV CORE e leve sua PME ao próximo nível.</strong><br>
+  👉 <a href="https://www.olvcore.com.br" target="_blank" style="color: var(--verde-cta); font-weight: bold;">www.olvcore.com.br</a> | atendimento@olvinternacional.com.br | +55 11 2675-1446</p>
+</section>
 </body>
 </html>
